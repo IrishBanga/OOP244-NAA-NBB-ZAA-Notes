@@ -1,4 +1,4 @@
-# OOP244 NAA and ZAA Notes
+# OOP244 NAA, NBB and ZAA Notes
 
 
 ## Workshop Zero
