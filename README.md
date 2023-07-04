@@ -37,9 +37,9 @@ This session was open to all the students who needed to review the 144/100 conce
 See the section directries: <a href="NAA/README.md" target="_blank">NAA</a> - <a href="NBB/README.md" target="_blank">NBB</a> - <a href="ZAA/README.md" target="_blank">ZAA</a>
 
 # Office
-[![Fardad Office](images/244Office.png)](https://teams.microsoft.com/l/channel/19%3aVPwdlcFX6UVD-3Rm_mrQt3qjO_lBKOEbisgwKSFK0Ls1%40thread.tacv2/General?groupId=a0cd7d51-8588-4fab-9ae0-7e08821c232b&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
+[![Fardad Office](images/244Office.png)](https://teams.microsoft.com/l/channel/19%3aLF4H4PWKBCwdlnwDNIv5tzfaTp5LWl1a2ayVedmg9Dc1%40thread.tacv2/General?groupId=b48c8a15-86ce-4605-8f7c-f31c4e5cf089&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)
 
-For Help and office times, click on my  [Office](https://teams.microsoft.com/l/channel/19%3adWp8NHtKn8C43A1EsfN70Dkxi00NNSdWT5H_5RzVDI41%40thread.tacv2/General?groupId=c8867f6e-1fdd-4571-851b-6f5907940a53&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  link to go to MS Teams, then click on the calendar icon and book a meeting using Scheduling Assistant to make sure it does not have a confilict with my other work activities.
+For Help and office times, click on my  [Office](https://teams.microsoft.com/l/channel/19%3aLF4H4PWKBCwdlnwDNIv5tzfaTp5LWl1a2ayVedmg9Dc1%40thread.tacv2/General?groupId=b48c8a15-86ce-4605-8f7c-f31c4e5cf089&tenantId=eb34f74a-58e7-4a8b-9e59-433e4c412757)  link to go to MS Teams, then click on the calendar icon and book a meeting using Scheduling Assistant to make sure it does not have a confilict with my other work activities.
 
 # Fardad's Schedule
 | Period | Start-Stop  | Mon | Tue | Wed | Thu | Fri |
