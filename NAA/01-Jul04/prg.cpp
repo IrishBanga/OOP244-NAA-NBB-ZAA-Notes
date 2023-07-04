@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
+void foo(int& a) {
+	a = 200;
+}
 int main() {
-	cout << "Hello, my name is Fardad" << endl;
+
+	int b = 10;
+	foo(b);  // foo(int& a = b);
 	return 0;
 }
