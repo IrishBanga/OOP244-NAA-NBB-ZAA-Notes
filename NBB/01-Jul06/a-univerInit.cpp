@@ -6,11 +6,12 @@ class Student {
    double m_gpa{};
 public:
    Student( ) = default;
-   Student( const char* name, int stNo );
-   Student( int stNo );
+   Student( const char* name, int stNo ) {
+     
+   }
 };
 class OOP244 {
-   Student S[40]{1234};
+   Student S[40]{};
 
 };
 int main( ) {
