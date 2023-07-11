@@ -3,5 +3,5 @@
 I strongly suggest for students to review other section's recordings as well, if time permits...
 
 - 01 - [Jul06 Review](https://youtu.be/MojS7YNhwIg)
-
+- 02 - [Jul07 DMA and operator overload review](https://youtu.be/KAqXagkMvdI)
 
