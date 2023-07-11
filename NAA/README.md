@@ -3,5 +3,6 @@
 I strongly suggest for students to review other section's recordings as well, if time permits...
 
 - 02 - [Jul06 - Review](https://youtu.be/iTBNfSs3XKI)
+- 03 - [Jul07 - Inheritance, methods, Virtuals, Pure virtual](https://youtu.be/klvVA3FCAGI)
 
 
