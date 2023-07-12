@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BCCA8BEC-CFE6-42FE-A372-01F92C1F8C29}</ProjectGuid>
+    <ProjectGuid>{3B41B9FC-EAEB-4AC5-B709-F7248F085B52}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My6BaseRefAndPtrInterface</RootNamespace>
+    <RootNamespace>My3BaseRefAndPtr</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -81,19 +81,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
-    <ClInclude Include="cat.h" />
-    <ClInclude Include="pet.h" />
-    <ClInclude Include="Utils.h" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="animal.cpp" />
     <ClCompile Include="cat.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="pet.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClInclude Include="animal.h" />
+    <ClInclude Include="cat.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

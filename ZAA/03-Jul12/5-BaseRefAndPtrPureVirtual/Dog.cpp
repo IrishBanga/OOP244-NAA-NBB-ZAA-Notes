@@ -12,7 +12,7 @@ namespace sdds {
       cout << "Run like " << name() << "the Dog" << endl;
    }
    void Dog::sound() {
-      cout << "Woof woof!" << endl;
+      cout << name() << " barks Woof woof!" << endl;
    }
    Dog::~Dog() {
       if (sdds::debug)cout << name() << "the dog is gone!" << endl;
