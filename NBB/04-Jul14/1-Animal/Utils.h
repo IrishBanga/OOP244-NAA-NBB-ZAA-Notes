@@ -21,7 +21,7 @@ namespace sdds {
       char* strcpy(char* des, const char* src)const;
 
       /// <summary>
-      /// copies src to des and null temrinates the des
+      /// copies src to des and nulltemrinates the des
       /// </summary>
       /// <param name="des">cString to copy to</param>
       /// <param name="src">cString to copy from</param>
@@ -31,12 +31,6 @@ namespace sdds {
       char* strncpy(char* des, const char* src, int len)const;
       int strlen(const char* str)const;
       const char* strstr(const char* str, const char* find)const;
-
-      /// <summary>
-      /// returns true if a character is alphanumeric
-      /// </summary>
-      /// <param name="ch">the character to check</param>
-      /// <returns>true or false</returns>
       int isalpha(char ch)const;
       int isspace(char ch)const;
       void trim(char word[])const;
