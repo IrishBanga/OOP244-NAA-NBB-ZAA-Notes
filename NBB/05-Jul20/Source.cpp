@@ -13,11 +13,11 @@ int main( ) {
       I[i] =  (i + 1) * 10 ;
    }
    I[50] = 400;
-   IntArray J = I, K( 5 );
-   K = J;
+//   IntArray J = I, K( 5 );
+//   K = J;
    showArry( I );
-   showArry( J );
-   showArry( K );
+//   showArry( J );
+//   showArry( K );
 
    return 0;
 }
