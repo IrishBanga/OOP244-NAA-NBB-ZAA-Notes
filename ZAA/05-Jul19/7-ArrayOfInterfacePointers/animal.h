@@ -7,7 +7,7 @@ namespace sdds{
     virtual void act()const = 0;
     virtual void move()const = 0;
     virtual void sound()const = 0;
-    virtual ~Animal( ) = default;
+    virtual ~Animal(){ }
   };
 
 }
