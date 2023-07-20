@@ -6,11 +6,13 @@ using namespace sdds;
 void showArry( const IntArray& ar );
 
 int main( ) {
-   IntArray I( 4 );
+   IntArray I( 5 );
    cout << I.size( ) << endl;
-   for ( size_t i = 0; i < I.size( ); i++ ) {
+   size_t i = 0;
+   for ( ; i < I.size( ); i++ ) {
       I[i] =  (i + 1) * 10 ;
    }
+   I[50] = 400;
    showArry( I );
    return 0;
 }
