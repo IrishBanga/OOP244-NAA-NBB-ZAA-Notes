@@ -1,6 +1,7 @@
 #pragma once
 #ifndef SDDS_INTARRAY_H
 #define SDDS_INTARRAY_H
+// implement the rule of three
 namespace sdds {
    class IntArray {
       int* m_data;
