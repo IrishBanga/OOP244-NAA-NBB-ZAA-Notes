@@ -8,8 +8,8 @@ namespace sdds {
    public:
       size_t size( )const;
       FloatArray( size_t size );
-      void setElement(size_t index, float value );
-      float getElement( size_t index )const;
+      const float& element( size_t index )const;
+      float& element( size_t index );
       virtual ~FloatArray( );
    };
 }

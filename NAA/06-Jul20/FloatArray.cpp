@@ -8,10 +8,11 @@ namespace sdds {
       m_data = new float[size];
       m_size = size;
    }
-   void FloatArray::setElement( size_t index, float value ) {
-      m_data[index % m_size] = value;
+
+   const float& FloatArray::element( size_t index )const {
+      return m_data[index % m_size];
    }
-   float FloatArray::getElement( size_t index)const {
+   float& FloatArray::element( size_t index ) {
       return m_data[index % m_size];
    }
    FloatArray::~FloatArray( ) {
