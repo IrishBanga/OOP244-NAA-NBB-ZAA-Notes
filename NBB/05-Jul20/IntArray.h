@@ -8,8 +8,8 @@ namespace sdds {
    public:
       IntArray( size_t size );
       size_t size( )const;
-      const int& element( size_t index )const;
-      int& element( size_t index );
+      const int& operator[]( size_t index )const;
+      int& operator[]( size_t index );
       virtual ~IntArray( );
    };
 }

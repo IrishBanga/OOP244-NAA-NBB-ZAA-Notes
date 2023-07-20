@@ -13,12 +13,12 @@ namespace sdds {
       return m_size;
    }
 
-   const int& IntArray::element( size_t index ) const {
+   const int& IntArray::operator[]( size_t index ) const {
       return m_data[index % m_size];
    }
    
    
-   int& IntArray::element( size_t index )  {
+   int& IntArray::operator[]( size_t index )  {
       return m_data[index % m_size];
    }
 
