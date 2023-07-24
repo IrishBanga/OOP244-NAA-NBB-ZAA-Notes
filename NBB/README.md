@@ -1,6 +1,6 @@
 # OOP244 NBB In-class Notes
-## Recordings of Previous lecture Sessions
-I strongly suggest for students to review other section's recordings as well, if time permits...
+## Recordings of Previous Lecture Sessions
+I strongly suggest that students review other sections' recordings as well if time permits...
 
 - 01 - [Jul06 Review](https://youtu.be/MojS7YNhwIg)
 - 02 - [Jul07 DMA and operator overload review](https://youtu.be/KAqXagkMvdI)
