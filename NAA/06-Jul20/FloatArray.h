@@ -9,6 +9,11 @@ namespace sdds {
    public:
       size_t size( )const;
       FloatArray( size_t size );
+
+      //implemented copy constructor and copy assignment
+      FloatArray(const FloatArray&);
+      FloatArray& operator=(const FloatArray&);
+
       const float& operator[]( size_t index )const;
       float& operator[]( size_t index );
       virtual ~FloatArray( );

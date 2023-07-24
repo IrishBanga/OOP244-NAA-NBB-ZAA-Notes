@@ -9,6 +9,24 @@ namespace sdds {
       m_size = size;
    }
 
+   FloatArray::FloatArray(const FloatArray& copyee)
+   {
+       *this = copyee;
+   }
+
+   FloatArray& FloatArray::operator=(const FloatArray& newArr)
+   {
+       //PLEASE NOTE: this doesn't include a check for self-assignment
+       delete[] m_data;
+       m_data = new float[newArr.m_size];
+       for (size_t i = 0; i < newArr.m_size; i++)
+       {
+           m_data[i] = newArr.m_data[i];
+       }
+       m_size = newArr.m_size;
+       return *this;
+   }
+
    const float& FloatArray::operator[]( size_t index )const {
       return m_data[index % m_size];
    }

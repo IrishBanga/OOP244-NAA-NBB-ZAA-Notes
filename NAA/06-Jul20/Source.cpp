@@ -9,7 +9,7 @@ void thisWillcrash( );
 
 
 int main( ) {
-   thisWillWork( );
+   thisWillcrash( );
    return 0;
 }
 
@@ -24,11 +24,28 @@ void showArray( const FloatArray& ar ) {
 FloatArray getArray(size_t size ) {
    FloatArray f( 3 );
    cout << "Enter Floats>" << endl;
+
+   //Creating a quit condition to stop getting contents
+   //Enter 0 three times to quit;
+   cout << "Enter 0 three times successively to quit" << endl;
+   int count = 0;
+   
    size_t i = 0;
-   for ( ; i < f.size( ); i++ ) {
+   for ( ; i < f.size( ) && count!=3; i++ ) 
+   {
       cout << (i + 1) << ": ";
       //      f[i] = (i + 1) * 1.23f;
       cin >> f[i+2];
+      
+      //quit condition check
+      if (f[i + 2] == 0)
+      {
+          count++;
+      }
+      else
+      {
+          count = 0;
+      }
    }
    return f;
 }
