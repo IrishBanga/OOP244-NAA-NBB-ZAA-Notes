@@ -1,6 +1,6 @@
 # OOP244 NAA In-class Notes
-## Recordings of Previous lecture Sessions
-I strongly suggest for students to review other section's recordings as well, if time permits...
+## Recordings of Previous Lecture Sessions
+I strongly suggest that students review other sections' recordings as well if time permits...
 
 - [Jul06 - Review](https://youtu.be/iTBNfSs3XKI)
 - [Jul07 - Inheritance, methods, Virtuals, Pure virtual](https://youtu.be/klvVA3FCAGI)
