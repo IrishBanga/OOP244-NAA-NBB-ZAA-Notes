@@ -1,5 +1,5 @@
 # OOP244 ZAA In-class Notes
-## Recordings of Previous lecture Sessions
+## Recordings of Previous Lecture Sessions
 I strongly suggest that students review other sections' recordings as well if time permits...
 
 - [01- Jul05 - Review](https://youtu.be/isLWpOfuj2M)
