@@ -7,4 +7,5 @@ I strongly suggest that students review other sections' recordings as well if ti
 - [Derived classes and virtuals review](https://youtu.be/Cdnc0lVhATA)
 - [Interfaces](https://youtu.be/aDEdXPukYp0)
 - [Interfaces, Smart Array (video not recorded, watch ZAA recording](https://youtu.be/fX5tRjFuCxE)
+- [Jul 25 - Derived classes with resource](https://youtu.be/23sIQGAUtfg)
 
