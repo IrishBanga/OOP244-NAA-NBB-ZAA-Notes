@@ -16,14 +16,16 @@ namespace sdds {
 
    FloatArray& FloatArray::operator=(const FloatArray& newArr)
    {
-       //PLEASE NOTE: this doesn't include a check for self-assignment
-       delete[] m_data;
-       m_data = new float[newArr.m_size];
-       for (size_t i = 0; i < newArr.m_size; i++)
+       if (this != &newArr)
        {
-           m_data[i] = newArr.m_data[i];
+           delete[] m_data;
+           m_data = new float[newArr.m_size];
+           for (size_t i = 0; i < newArr.m_size; i++)
+           {
+               m_data[i] = newArr.m_data[i];
+           }
+           m_size = newArr.m_size;
        }
-       m_size = newArr.m_size;
        return *this;
    }
 
