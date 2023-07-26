@@ -3,12 +3,10 @@
 namespace sdds {
    Name::Name( const char* value ) {
       if ( value ) {
-         m_value = new char[ut.strlen( value ) + 1];
-         ut.strcpy( m_value, value );
+         ut.aloCpy( m_value, value );
       }
       else {
-         m_value = new char[ut.strlen( "No Name" ) + 1];
-         ut.strcpy( m_value, "No Name" );
+         ut.aloCpy( m_value, "No Name" );
       }
    }
 
@@ -18,9 +16,7 @@ namespace sdds {
 
    Name& Name::operator=( const Name& N ) {
       if ( this != &N ) {
-         delete[] m_value;
-         m_value = new char[ut.strlen( N.m_value ) + 1];
-         ut.strcpy( m_value, N.m_value );
+         ut.reAloCpy( m_value, N.m_value );
       }
       return *this;
    }
@@ -31,7 +27,8 @@ namespace sdds {
    std::ostream& Name::write( std::ostream& ostr ) const {
       return ostr << m_value;
    }
-   std::ostream& operator<<( std::ostream& leftOperand, const Name& rightOperand ) {
+   std::ostream& operator<<( std::ostream& leftOperand,
+      const Name& rightOperand ) {
       return rightOperand.write( leftOperand );
    }
 }

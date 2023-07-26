@@ -10,7 +10,7 @@ namespace sdds {
       Name( const Name& N );
       Name& operator=( const Name& N );
       virtual ~Name( );
-      std::ostream& write( std::ostream& ostr = std::cout )const;
+      virtual std::ostream& write( std::ostream& ostr = std::cout )const;
    };
    std::ostream& operator<<(std::ostream& leftOperand, const Name& rightOperand);
 }
