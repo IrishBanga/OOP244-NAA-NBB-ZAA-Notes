@@ -1,7 +1,5 @@
 #include <iostream>
-#include <string>
 using namespace std;
-
 #include "Utils.h"
 namespace sdds {
    Utils ut;
@@ -38,15 +36,6 @@ namespace sdds {
          ut.strcpy( des, src );
       }
    }
-   char* Utils::getDynStr( std::istream& istr ) {
-      char* cstr{};
-      string S;
-      if ( getline( istr, S ) ) {
-         aloCpy( cstr, S.c_str( ) );
-      }
-      return cstr;
-   }
-
    char Utils::tolower(char ch)const {
       if (ch >= 'A' && ch <= 'Z') ch += ('a' - 'A');
       return ch;

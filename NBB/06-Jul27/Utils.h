@@ -23,7 +23,6 @@ namespace sdds {
       std::istream& getint(int& num, const char* prompt = nullptr, std::istream& istr = std::cin)const;
       void reAloCpy( char*& des, const char* src );
       void aloCpy( char*& des, const char* src );
-      char* getDynStr( std::istream& istr = std::cin );
    };
    extern Utils ut;
 

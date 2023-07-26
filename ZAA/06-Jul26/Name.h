@@ -11,8 +11,10 @@ namespace sdds {
       Name& operator=( const Name& N );
       virtual ~Name( );
       virtual std::ostream& write( std::ostream& ostr = std::cout )const;
+      virtual std::istream& read( std::istream& istr = std::cin );
    };
    std::ostream& operator<<(std::ostream& leftOperand, const Name& rightOperand);
+   std::istream& operator>>( std::istream& leftOperand, Name& rightOperand );
 }
 #endif // !SDDS_NAME_H
 

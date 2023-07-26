@@ -9,9 +9,12 @@ namespace sdds {
          ut.aloCpy( m_lastname, "No Lastname" );
       }
    }
-   Fullname::Fullname( const Fullname& Fn ):Name(Fn) {
-      operator=( Fn );
+   Fullname::Fullname( const Fullname& Fn ) :Name( Fn ) {
+      ut.aloCpy( m_lastname, Fn.m_lastname );
    }
+   //Fullname::Fullname( const Fullname& Fn )  { // Name is defaulted and reallcates over "No Name"
+   //   operator=( Fn );
+   //}
    Fullname& Fullname::operator=( const Fullname& FN ) {
       if ( this != &FN ) {
          Name::operator=( FN );
