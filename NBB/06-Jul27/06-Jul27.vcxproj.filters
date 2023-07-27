@@ -21,10 +21,13 @@
     <ClCompile Include="Name.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NameUnitTest.cpp">
+    <ClCompile Include="Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utils.cpp">
+    <ClCompile Include="FullnameUnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOAble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOAble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

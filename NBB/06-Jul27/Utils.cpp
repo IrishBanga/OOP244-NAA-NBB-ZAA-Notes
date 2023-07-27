@@ -25,11 +25,11 @@ namespace sdds {
       num = getint(prompt, istr);
       return istr;
    }
-   void Utils::reAloCpy( char*& des, const char* src ) {
+   void Utils::reStrAloCpy( char*& des, const char* src ) {
       delete[] des;
-      aloCpy( des, src );
+      strAloCpy( des, src );
    }
-   void Utils::aloCpy( char*& des, const char* src ) {
+   void Utils::strAloCpy( char*& des, const char* src ) {
       des = nullptr;
       if ( src ) {
          des = new char[ut.strlen( src ) + 1];
@@ -123,5 +123,13 @@ namespace sdds {
          if (i < maxSize - 1) std::cin.get(ch);
       }
       cString[i] = char(0);
+   }
+   char* Utils::read( std::istream& istr, char delim) {
+      string str;
+      char* ret{};
+      if ( getline( istr, str, delim )) {
+         strAloCpy( ret, str.c_str( ) );
+      }
+      return ret;
    }
 }

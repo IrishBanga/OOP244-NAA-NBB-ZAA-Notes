@@ -1,7 +1,9 @@
 #ifndef SDDS_UTILS_H
 #define SDDS_UTILS_H
 #include <iostream>
+#include <string>
 // using namespace std; not allowed in a header file
+#define SDDS_DEBUG
 namespace sdds {
    class Utils {
    public:
@@ -19,10 +21,11 @@ namespace sdds {
       void trim(char word[])const;
       char* lowerstrcpy(char des[], const char source[])const;
       void read(char* cString, unsigned int maxSize, char delimiter = '\n')const;
+      char* read( std::istream& istr = std::cin , char delim = '\n' );
       int getint(const char* prompt = nullptr, std::istream& istr = std::cin)const;
       std::istream& getint(int& num, const char* prompt = nullptr, std::istream& istr = std::cin)const;
-      void reAloCpy( char*& des, const char* src );
-      void aloCpy( char*& des, const char* src );
+      void reStrAloCpy( char*& des, const char* src );
+      void strAloCpy( char*& des, const char* src );
    };
    extern Utils ut;
 
