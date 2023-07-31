@@ -8,3 +8,4 @@ I strongly suggest that students review other sections' recordings as well if ti
 - [04- Interfaces](https://youtu.be/nclo7HrT7pc)
 - [05- Interfaces, Smart Array](https://youtu.be/fX5tRjFuCxE)
 - [06- Derived Classes with resource](https://youtu.be/HJEe1LV7Fuw)
+- [07- Derived Classes with resource review](https://youtu.be/tMCPc5QUyTk)
