@@ -4,6 +4,8 @@ I strongly suggest that students review other sections' recordings as well if ti
 
 - [01- Jul05 - Review](https://youtu.be/isLWpOfuj2M)
 - [02- Jul06 - DMA and operator overload revew](https://youtu.be/DmQGGJh_qU4)
-- [Derived classes and virtuals review](https://youtu.be/d8Sjyet4p6M)
-- [Interfaces](https://youtu.be/nclo7HrT7pc)
-- [Interfaces, Smart Array](https://youtu.be/fX5tRjFuCxE)
+- [03- Derived classes and virtuals review](https://youtu.be/d8Sjyet4p6M)
+- [04- Interfaces](https://youtu.be/nclo7HrT7pc)
+- [05- Interfaces, Smart Array](https://youtu.be/fX5tRjFuCxE)
+- [06- Derived Classes with resource](https://youtu.be/HJEe1LV7Fuw)
+- [07- Derived Classes with resource review](https://youtu.be/tMCPc5QUyTk)
