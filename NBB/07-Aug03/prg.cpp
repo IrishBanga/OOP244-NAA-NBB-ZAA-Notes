@@ -9,7 +9,7 @@ int main( ) {
    Array<int, 5> ir;
    size_t i;
    for ( i = 0; i < ar.size( ); i++ ) {
-      ar[i] = (int( i ) + 1) * 10.1;
+      ar[i] = (int( i ) + 1) * 10;
    }
    cout << ar << endl;
    for ( i = 0; i < ir.size( ); i++ ) {
