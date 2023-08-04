@@ -9,3 +9,4 @@ I strongly suggest that students review other sections' recordings as well if ti
 - [05- Interfaces, Smart Array](https://youtu.be/fX5tRjFuCxE)
 - [06- Derived Classes with resource](https://youtu.be/HJEe1LV7Fuw)
 - [07- Derived Classes with resource review](https://youtu.be/tMCPc5QUyTk)
+- [08- Function Templates part 1](https://youtu.be/7mBWFPRWHcA)
