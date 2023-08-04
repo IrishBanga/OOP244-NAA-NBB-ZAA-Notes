@@ -8,3 +8,4 @@ I strongly suggest that students review other sections' recordings as well if ti
 - 04 - [Interfaces](https://youtu.be/t4j8wVJA8Ac)
 - 05 - [Interfaces, Smart Array (video audio not recorded for arrays, watch ZAA recording](https://youtu.be/0ceYscRjehU) - Here is the [ZAA Array recording](https://youtu.be/fX5tRjFuCxE?t=2190)
 - 06 - [Jul 27, Derived classes with resource](https://youtu.be/BBLbZhlIcuQ)
+- 07 - [Aug 03, Templates](https://youtu.be/SZDFcLFdyP8)
