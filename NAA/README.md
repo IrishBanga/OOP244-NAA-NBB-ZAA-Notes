@@ -9,3 +9,4 @@ I strongly suggest that students review other sections' recordings as well if ti
 - [Interfaces, Smart Array (video not recorded, watch ZAA recording](https://youtu.be/fX5tRjFuCxE)
 - [Jul 25 - Derived classes with resource](https://youtu.be/23sIQGAUtfg)
 - [Aug 01 - Templates (functions) part 1](https://youtu.be/A6pQtsECFKg)
+- [Aug 03 - Templated, Classes(intro)](https://youtu.be/QhtBwFt8T40)
